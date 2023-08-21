@@ -14,7 +14,8 @@ export class ItemsController {
 
   @Get()
   async findAll() {
-    return this.itemsService.findAll();
+    return [];
+    // this.itemsService.findAll();
   }
 
   @Get(':id')
